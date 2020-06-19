@@ -1,7 +1,14 @@
 {
   "name": "eslint-plugin-peace",
+  "repository": {
+    "url": "https://github.com/thoamsy/eslint-plugin-peace"
+  },
+  "bugs": "https://github.com/thoamsy/eslint-plugin-peace/issues",
   "version": "0.1.0",
-  "description": "让世界和平",
+  "files": [
+    "lib"
+  ],
+  "description": "致力于让世界和平的 Lint",
   "keywords": [
     "eslint",
     "eslintplugin",
