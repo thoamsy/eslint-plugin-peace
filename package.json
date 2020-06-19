@@ -1,13 +1,13 @@
 {
-  "name": "@byted/eslint-plugin-devops",
-  "version": "0.4.0",
-  "description": "some rules in bytedance devops group",
+  "name": "eslint-plugin-peace",
+  "version": "0.1.0",
+  "description": "让世界和平",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "devops",
+  "author": "thoamsy",
   "main": "lib/index.js",
   "scripts": {
     "test": "yarn run jest",
