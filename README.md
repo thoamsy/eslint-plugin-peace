@@ -38,6 +38,8 @@ Then configure the rules you want to use under the rules section.
 
 用来在中英文之间插入空格。比如 `iOS和Android是两个操作系统` 会自动修复成 `iOS 和 Android 是两个操作系统`
 
+![](./resources/intr1.png)
+
 - [x] 在中文和英文字母，中文和数字之间插入空格
 - [ ] 支持检测模板字符串
 - [ ] 标点符号和文字之间插入空格
