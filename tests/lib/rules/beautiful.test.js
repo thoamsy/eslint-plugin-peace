@@ -20,11 +20,20 @@ ruleTester.run('test rule', rule, {
     {
       code: `'我们喜欢 iPhone 哦'`,
     },
+    // {
+    //   code: '`我们喜欢 iPhone 哦`',
+    // },
   ].map(parserMap),
   invalid: [
     { code: `'中文1'`, errors: [expectedError()] },
     { code: `'我们喜欢iPhone哦'`, errors: [expectedError()] },
     { code: `'iPhone哦'`, errors: [expectedError()] },
     { code: `'iPhone 好棒哦2030'`, errors: [expectedError()] },
+    { code: `"iPhone 好棒哦2030"`, errors: [expectedError()] },
+    { code: `"iOS和Android是两个操作系统"`, errors: [expectedError()] },
+    {
+      code: `const el = <div>这还是一个iPhone</div>`,
+      errors: [expectedError('JSXText')],
+    },
   ].map(parserMap),
 });
