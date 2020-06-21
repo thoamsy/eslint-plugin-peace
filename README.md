@@ -18,7 +18,7 @@ Add `devops` to the plugins section of your `.eslintrc` configuration file. You 
 
 ```json
 {
-  "plugins": ["eslint-plugin-peace"]
+  "plugins": ["peace"]
 }
 ```
 
@@ -26,6 +26,8 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
+  "plugins": ["peace"],
+  "extends": ["plugin:peace/recommended"],
   "rules": {
     "peace/beautiful-space": 2
   }
@@ -34,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-### beautiful-space
+### beautiful-space (**Recommended**)
 
 用来在中英文之间插入空格。比如 `iOS和Android是两个操作系统` 会自动修复成 `iOS 和 Android 是两个操作系统`
 
