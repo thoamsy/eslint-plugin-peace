@@ -4,7 +4,7 @@
     "url": "https://github.com/thoamsy/eslint-plugin-peace"
   },
   "bugs": "https://github.com/thoamsy/eslint-plugin-peace/issues",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "files": [
     "lib"
   ],
@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
-    "memoize-one": "^5.1.1",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
