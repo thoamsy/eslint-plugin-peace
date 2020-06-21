@@ -4,7 +4,7 @@
     "url": "https://github.com/thoamsy/eslint-plugin-peace"
   },
   "bugs": "https://github.com/thoamsy/eslint-plugin-peace/issues",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "files": [
     "lib"
   ],
@@ -20,7 +20,7 @@
     "test": "yarn run jest",
     "test:ci": "npm run jest -- --ci --runInBand",
     "jest": "jest --coverage tests/**/*",
-    "prepublish": "yarn test"
+    "prepublish": "yarn test && nrm use npm"
   },
   "husky": {
     "hooks": {
@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "lodash.get": "^4.4.2",
+    "lodash.zip": "^4.2.0",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
