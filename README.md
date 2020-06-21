@@ -1,6 +1,6 @@
 # eslint-plugin-peace
 
-some rules in bytedance devops group
+some rules for stop meaningless quarrels
 
 ## Installation
 
