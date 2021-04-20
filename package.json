@@ -4,7 +4,7 @@
     "url": "https://github.com/thoamsy/eslint-plugin-peace"
   },
   "bugs": "https://github.com/thoamsy/eslint-plugin-peace/issues",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "files": [
     "lib"
   ],
