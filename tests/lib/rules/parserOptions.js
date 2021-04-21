@@ -12,11 +12,13 @@ module.exports = function parserOptionsMapper({
   errors,
   options = [],
   parserOptions = {},
+  output,
 }) {
   return {
     code,
     errors,
     options,
+    output,
     parserOptions: {
       ...defaultParserOptions,
       ...parserOptions,
