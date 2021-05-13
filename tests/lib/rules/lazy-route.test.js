@@ -138,7 +138,9 @@ const AtomDevelop = () => {
   return (
     <Switch>
       <Route exact>
-        <DevIndex />
+        <section>
+          <DevIndex />
+        </section>
       </Route>
       <Route exact component={DevDetails} />
       <Route exact>
@@ -171,7 +173,9 @@ const AtomDevelop = () => {
   return (
     <Switch>
       <Route exact>
-        <DevIndex />
+        <section>
+          <DevIndex />
+        </section>
       </Route>
       <Route exact component={DevDetails} />
       <Route exact>
