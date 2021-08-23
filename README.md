@@ -47,3 +47,9 @@ Then configure the rules you want to use under the rules section.
 - [ ] 标点符号和文字之间插入空格
 
 NOTE：目前模板字符串只会检测 `${foo}` 是 Identifier 或者 Literal 的场景，如果是其他复杂表达式，暂时不支持。显然这种方式也可以覆盖绝大多数场景了
+
+### Brand-typo
+
+检测品牌名是否符合编写的要求。比如是 **TikTok** 而不是 **Tiktok**
+
+通过在 rule 中配置 `'peace/brand-typo': [2, 'TikTok']` 即可检测并自动 fix
