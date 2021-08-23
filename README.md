@@ -52,4 +52,22 @@ NOTE：目前模板字符串只会检测 `${foo}` 是 Identifier 或者 Literal 
 
 检测品牌名是否符合编写的要求。比如是 **TikTok** 而不是 **Tiktok**
 
-通过在 rule 中配置 `'peace/brand-typo': [2, 'TikTok']` 即可检测并自动 fix
+通过在 rule 中配置 `'peace/brand-typo': [2, 'TikTok', 'iOS', 'Android']` 即可检测并自动 fix
+
+比如说这样的写法就会被 Lint 检测到
+
+```js
+// ❌
+const str = 'Tiktok';
+
+// ❌
+if (true) {
+  str = 'tiktok';
+}
+
+// ❌
+<div>call me in tiktok</div>;
+
+// ❌
+const title = '请问你是ios手机还是android手机';
+```
