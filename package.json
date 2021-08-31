@@ -35,7 +35,8 @@
   "devDependencies": {
     "eslint": "^7.24.0",
     "husky": "^4.0.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "pluralize": "^8.0.0"
   },
   "engines": {
     "node": ">=0.10.0"
